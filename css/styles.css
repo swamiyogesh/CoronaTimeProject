@@ -18,6 +18,7 @@
 .card-container {
     display: grid;
     perspective: 700px;
+    margin-bottom: 20px;
 }
 .card-flip, .card-container {
     transform-style: preserve-3d;

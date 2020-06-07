@@ -1,0 +1,27 @@
+{
+  "name": "coronatimeproject",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/swamiyogesh/CoronaTimeProject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swamiyogesh/CoronaTimeProject.git"
+  },
+  "author": "yogesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swamiyogesh/CoronaTimeProject/issues"
+  },
+  "homepage": "https://github.com/swamiyogesh/CoronaTimeProject#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9"
+  }
+}

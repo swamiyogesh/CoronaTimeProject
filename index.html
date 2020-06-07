@@ -1,63 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<!-- Required meta tags always come first -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
 	<title>Marvel Vs DC</title>
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-
-
-	<nav class="navbar  navbar-dark bg-dark  justify-content-center">
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm justify-content-center fixed-top">
 	
-		<a class="navbar-brand" href="#">
-		<img src="images/logo.jpg" class="img-responsive" alt="logo" height="100" width="400"/>
-	</a>
+        <div class="container">
+        	<a class="navbar-brand mr-auto" href="#"><img src="images/logo.jpg" height="35" width="100"></a>
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+           <div class="collapse navbar-collapse" id="Navbar">
+           	<ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Marvel Cinematic Universe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> DC Extended Universe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"> About</a></li>
+                </ul>
+           </div>       
+        </div>
+    </nav>
 
-	<div class="container navbar-expand-lg justify-content-center">
-			<ul class="nav navbar-nav ">
-		<li class="nav-item active">
-        <a class="nav-link " href="#">Home<span class="sr-only">(current)</span></a>
-      </li>
 
 
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Marvel Cinematic Universe<span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#">DC Extended Universe</a>
-      </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>  
-    </ul>
-    	</div> 
-</nav>
-
-<header class="jumbotron">
+<header class="jumbotron bg-danger">
 	<div class="container">
-		<div class="row justify-content-center">
-			<img src="images/image.jpg">
-		</div>
+    <div class="row justify-content-center ">
+        <div class="col-12 col-sm-4 card-container">
+            <div class="card-flip">
+                <div class="card front">
+                    <img src="images/marvel.jpg">
+                </div>
+                <div class=" card back">
+                    <h1>Marvel</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 card-container">
+            <div class="card-flip">
+                <div class="card front">
+                    <img src="images/dc.jpg">
+                </div>
+                <div class=" card back">
+                    <h1>DC</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-	
 </header>
 
-
 <footer class="footer" id="about">
-        <div class="container">
-            <div class="row">             
-               <h1>About me and contact details</h1>
-           </div>
-        </div>
-    </footer>
+	<h1>About</h1>
+</footer>
 
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
